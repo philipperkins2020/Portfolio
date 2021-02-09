@@ -5,7 +5,7 @@ body{
 }
 
 Header{
-    
+
     
     font-size: medium;
 
@@ -44,3 +44,7 @@ li {
     text-decoration:none;
 }
 
+.mypic{
+    height: 50px;
+    padding-left: 5px;
+}
