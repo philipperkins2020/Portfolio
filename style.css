@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://live.staticflickr.com/2017/5748161233_d32e954cf1_b.jpg);  
+    background-position: center;
+    background padding-top: 20px;
+}
+
+Header{
+    
+    
+    font-size: medium;
+
+    display:flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    float: left;
+    
+}
+
+h1{
+    padding-left: 10px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: groove; 
+    border-radius: 5%;
+    border-color: red;
+}
+
+nav ul  {
+    list-style-type: hiragana;
+    color: red;
+    display:flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 100%;
+    margin-left: 250px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+li {
+    font-weight: bold;
+    text-decoration:none;
+}
+
