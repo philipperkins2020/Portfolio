@@ -103,3 +103,7 @@ p {
     background: #70d1d0 1px;
     border: black 1px solid;
 }
+
+.work {
+    display: flex;
+}
