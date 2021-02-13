@@ -134,6 +134,7 @@ h3 {
     background: #70d1d0 1px;
     border: black 1px solid;
     width: 50%;
+    height: 30%;
     display: inline-block;
     
     
@@ -149,19 +150,23 @@ h3 {
     background: #70d1d0 1px;
     border: black 1px solid;
     width: 50%;
+    height: 30%;
     display: inline-block;
 }
 
 .workstuff {
-margin-left: 50%;
+display: flex;
+margin: 0 auto;
+width: 50%;
 }
 
 .Refractor img {
-    width: 90%;
+    max-width: 100%;
+    height: 500px;
 }
-
 .calculator img {
-    width:90%;
+    max-width: 100%;
+    height: auto;
 }
 .my-bio img {
     width: 90%;
@@ -170,7 +175,10 @@ margin-left: 50%;
 h4 {
     float: left;
     display: block;
+
 }
+
+
 @media screen and (max-width: 992px){
 
 }
