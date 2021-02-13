@@ -135,7 +135,7 @@ h3 {
     border: black 1px solid;
     width: 50%;
     display: inline-block;
-    float: left;
+    
     
 
 }
@@ -153,7 +153,7 @@ h3 {
 }
 
 .workstuff {
-    margin-left: 50%;q
+margin-left: 50%;
 }
 
 .Refractor img {
