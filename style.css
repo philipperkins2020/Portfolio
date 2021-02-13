@@ -1,17 +1,18 @@
 *{
     box-sizing: border-box;
 }
-
+/* wanted off-white for backgorund color */
 body {
     background-color:#edeef0; 
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* wanted to make header background smaller */
 header {
     background-color: #70d1d0;
     height: 70px;
 }
+ /* wanted to have my name at top left */
 h1 {
     margin-left: 83px;
     margin-top: 39px;
@@ -26,7 +27,7 @@ h1 {
     width:75%;
     margin: 0 auto;
 }
-
+/*  */
  nav li {
     text-decoration: none;
     display: inline-block;
@@ -168,7 +169,7 @@ h3 {
 
 h4 {
     float: left;
-    display: inline-block;
+    display: block;
 }
 @media screen and (max-width: 992px){
 
