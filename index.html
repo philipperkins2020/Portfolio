@@ -1,19 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Philip Perkins Portfolio</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Philip Perkins</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            My Links
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#links">Resume</a></li>
+                            <li><a class="dropdown-item" href="#links">LinkedIn</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="row" style="padding-top: 3%;">
+        <div class="card" style="width: 18rem;">
+            <img src="mypic.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                <h1 id="contact">Contact Info</h1>
+                <ul>
+                    <li> Email:philipperkins2020@gmail.com
+                     </li>  
+                      <li> Cell: 214-846-5482   
+                     </li>
+
+                </ul>
+                <H2>My Links</H2>
+                <ul>
+                    <li>LinkedIn</li>
+                    <li>Resume</li>
+
+                </ul>
+
+                <H3>My Skills</H3>
+                <ul>
+                    <li>#Html</li>
+                    <li>#CSS</li>
+                    <li>#Javascript</li>
+                    <li>#NodeJS</li>
+                    <li>#React</li>
+                </ul>
+                 </p>
+
+            </div>
+        </div>
+        <div class="col-md" style="text-align: center;">
+            <H4 id="about">About Me!</H4>
+            <p class="shadow p-3 mb-5 bg-body rounded" style="line-height:40px;">Hi! My name is Philip and I am a Full
+                Stack developer that recently graduated from SMU coding boot camp. It was quite a journey through all
+                the triumphs, challenges, and knowledge gained in a span of 6 months. I grew up in Garland, TX and been
+                in the DFW area most of my life. However I did spend 4 years of my life in Japan in the Navy and was an
+                amazing experience. After the Navy I attended the University of Texas at Dallas gaining a degree in
+                education. I have chosen web development as my new career because of the endless possibilities and
+                technologies that are coming out every day and I hope you enjoy the projects in my portfolio.</p>
+            <br>
+
+        </div>
+        <div class="col-md" style="text-align: center;">
+            <h5 id="Projects">My Projects</h5>
+    
+            <p>
+                <button class="btn btn-primary" data-bs-toggle="collapse" href="#groupproject" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1">HotStocks Project</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Code
+                    Quiz</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Work-day
+                    Scheduler</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="groupproject">
+                        <div class="card card-body">
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Some placeholder content for the second collapse component of this multi-collapse example. This
+                            panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+
+
+    </div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- <header>
         <h1>Philip Perkins</h1>
-        <div class="navbar">
+         <div class="navbar">
             <nav>
                 <ul>
                     <li><a href="#about">About Me </a></li>
@@ -22,15 +168,15 @@
                     <li><a href="#resume">Resume</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <div class="container">
+        </div> -->
+<!-- </header> -->
+<!-- <div class="container">
         <img src="mypic.jpg" class="mypic" alt="Philip Perkins Picture">
         <section class="about" id="about">
             <h2>About
                 <br>
                 Me
-            </h2 class="about" id="about">
+         </h2 class="about" id="about">
             <p> Hello! I am Philip Perkins and I recently graduated from SMU Full Stack Development bootcamp. I come
                 from Garland, Texas and graduated from South Garland High School. Fun Fact my first job was working at
                 Whataburger. I am a former member of the United States Navy and also have a background in teaching in
@@ -88,4 +234,4 @@
 
 </body>
 
-</html>
+</html> -->
