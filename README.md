@@ -1,18 +1,34 @@
 # Portfolio
 
-## Description
+## Description 
 
-I created my first portfolio that includes 4 different sections. The sections are About me, projects, contact info, and resume. I made sure to put links in my work so that when you click on them they will go that work in another web page. My navbar is interactive as when you hover over it there is an hover affect and also when you click on a section it will take you to that section. Also I made sure to ensure the site has functionality across all sizes of screens.
+In this assignment I updated my Portfolio using Bootstrap's framework. I also updated my portfolio to include my LinkedIn link and my resume.
 
-## Insallation 
+
+## Usage
+![Portfolio](Assets/images/Screenshot(132).png)
+![Portfolio](Assets/images/Screenshot(133).png)
+![Portfolio](Assets/images/Screenshot(134).png)
+![Portfolio](Assets/images/Screenshot(135).png)
+
+
+
+
+
+## Table of Contents 
+
+* Usage
+* Installation
+* Credits
+
+
+## Installation
 
 None
 
-## Usage
-
-![my portfolio] (Assets\images\Screenshot (23).png)
 
 
 ## Credits
 
 philipperkins2020
+
