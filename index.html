@@ -51,7 +51,7 @@
 
     <div class="row" style="padding-top: 3%;">
         <div class="card" style="width: 18rem;">
-            <img src="mypic.jpg" class="card-img-top" alt="...">
+            <img src="mypic.jpg" style="border-radius: 40%;"  class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"></h5>
                 <p class="card-text">
@@ -97,34 +97,42 @@
             <h5 id="Projects">My Projects</h5>
 
             <p>
-                <button class="btn btn-primary" data-bs-toggle="collapse" href="#groupproject" role="button"
+                <button class="btn btn-primary" data-toggle="collapse" href="#groupproject" role="button"
                     aria-expanded="false" aria-controls="multiCollapseExample1">HotStocks Project</button>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+                <button class="btn btn-primary" type="button" data-toggle="collapse" href="#code" data-target="#code"
                     aria-expanded="false" aria-controls="multiCollapseExample2">Code
                     Quiz</button>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
-                    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Work-day
+                <button class="btn btn-primary" type="button" data-toggle="collapse" href= "workday" data-target="#workday"
+                    aria-expanded="false" aria-controls="multiCollapseExample3">Work-day
                     Scheduler</button>
             </p>
         
             <div class="col">
                 <div class="collapse multi-collapse" id="groupproject">
                     <div class="card card-body">
-                        <img src="Assets/images/groupproject.png">
+                        <img src="Assets/images/groupproject.png" style="width:100%">
         
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="collapse multi-collapse" id="code">
                     <div class="card card-body">
+                        <img src="Assets/images/codequiz.png" style="width: 100%">
+                        Some placeholder content for the second collapse component of this multi-collapse example. This
+                        panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="workday">
+                    <div class="card card-body">
+                        <img src="Assets/images/workday.png" style="width: 100%">
                         Some placeholder content for the second collapse component of this multi-collapse example. This
                         panel is hidden by default but revealed when the user activates the relevant trigger.
                     </div>
                 </div>
             </div>
         
-        </div>
+        </div>x
     </div>
 
     
