@@ -2,7 +2,7 @@
 
 ## Description 
 
-In this assignment I updated my Portfolio using Bootstrap's framework. I also updated my portfolio to include my LinkedIn link and my resume.
+In this assignment I updated my Portfolio with my github page linked and as well as a fresh resume. I also pinned three projects on my github homepage. I also added Project 2 to my portfolio.
 
 
 ## Usage
