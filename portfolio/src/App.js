@@ -37,12 +37,12 @@ function App() {
 
 
 
-      <div class="row" >
-        <div class="card" >
-          <img src="mypic.jpg"  class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">
+      <div className="row" >
+        <div className="card" >
+          <img src="mypic.jpg"  className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title"></h5>
+            <p className="card-text">
               <h1 id="contact">Contact Info</h1>
               <ul>
                 <li> Email:philipperkins2020@gmail.com
@@ -72,9 +72,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="col-md" style="text-align: center;">
+      <div className="col-md">
             <h4 id="about">About Me!</h4>
-            <p class="shadow p-3 mb-5 bg-body rounded" style="line-height:40px;">Hi! My name is Philip and I am a Full
+            <p className="shadow p-3 mb-5 bg-body rounded">Hi! My name is Philip and I am a Full
                 Stack developer that recently graduated from SMU coding boot camp. It was quite a journey through all
                 the triumphs, challenges, and knowledge gained in a span of 6 months. I grew up in Garland, TX and have been
                 in the DFW area most of my life. However, I did spend 4 years of my life in Japan in the Navy and it was an
@@ -87,19 +87,61 @@ function App() {
                 <br/>
                 (Click on projects to view.)
 ​               
-            <p>
-                <button id="1" class="btn btn-primary" data-toggle="collapse" href="#groupproject" role="button"
+            
+                <button id="1" className="btn btn-primary" data-toggle="collapse" href="#groupproject" role="button"
                     aria-expanded="false">HotStocks Project</button>
-                <button id="2" class="btn btn-primary" type="button" data-toggle="collapse" href="#code"
+                <button id="2" className="btn btn-primary" type="button" data-toggle="collapse" href="#code"
                     aria-expanded="false">Code
                     Quiz</button>
-                <button id="3" class="btn btn-primary" type="button" data-toggle="collapse" href="#workday"
+                <button id="3" className="btn btn-primary" type="button" data-toggle="collapse" href="#workday"
                     aria-expanded="false">gunSafe Project
                     </button>
-            </p>
+            
     
     
     </div>
+    <div className="row">
+                <div className="col">
+                  <div className="collapse multi-collapse" id="multiCollapseExample1">
+                    <div className="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="collapse multi-collapse" id="multiCollapseExample2">
+                    <div className="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col">
+                <div className="collapse multi-collapse" id="groupproject">
+                    <div className="card card-body">
+                        <a href="https://philipperkins2020.github.io/Group-Project-1/" target="_blank"><img src="Assets/images/groupproject.png"/> </a>
+
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div className="col">
+                <div className="collapse multi-collapse" id="code">
+                    <div className="card card-body">
+                        <a href="https://philipperkins2020.github.io/code-quiz/" target="_blank"> <img src="Assets/images/codequiz.png"/></a>
+                        
+                    </div>
+                </div>
+                <div className="collapse multi-collapse" id="workday">
+                    <div className="card card-body">
+                        <a href="https://powerful-bastion-48444.herokuapp.com/" target="_blank"><img src="C:\Users\phili\code\saturday-thirteen\Portfolio\Assets\images\Screenshot(225).png"/></a>
+                        
+                    </div>
+                </div>
+            </div>
+
 </div>
 
   );
