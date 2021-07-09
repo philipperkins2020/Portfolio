@@ -42,7 +42,7 @@ function App() {
           <img src="mypic.jpg"  className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title"></h5>
-            <p className="card-text">
+            <div className="card-text">
               <h1 id="contact">Contact Info</h1>
               <ul>
                 <li> Email:philipperkins2020@gmail.com
@@ -67,7 +67,7 @@ function App() {
                 <li>#NodeJS</li>
                 <li>#React</li>
               </ul>
-            </p>
+            </div>
 
           </div>
         </div>
