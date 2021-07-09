@@ -1,5 +1,8 @@
 
 import './App.css';
+import profilePic from './assets/images/mypic.jpg'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -39,7 +42,7 @@ function App() {
 
       <div className="row" >
         <div className="card" >
-          <img src="mypic.jpg"  className="card-img-top" alt="..." />
+          <img src={profilePic}  className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title"></h5>
             <div className="card-text">
